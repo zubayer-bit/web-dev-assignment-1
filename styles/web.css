@@ -36,13 +36,18 @@
 
 .header{
     background-image: url(../media/image/Hero-bg.png);
-    background-repeat: no-repeat;
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 150px;
+    padding: 50px 150px;
 }
 
 .nav-title{
@@ -79,4 +84,95 @@ nav ul li{
     border-radius: 5px;
     margin-bottom: 152px;
 
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* action part */
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 116px 80px 116px 80px;
+    gap: 120px;
+
+}
+
+.action-content{
+    width: 517px;
+    height: 203px;
+}
+
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+
+}
+
+.action-sub-title{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.action-profile-image{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+
+/* production */
+
+.Productive{
+    
+    /* margin: 116px 159px 137px 141px; */
+    border-radius: 24px;
+    padding: 50px 142px; 
+    text-align: center;
+    height: 360px;
+    /* width: 1140px; */
+}
+
+.Productive-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+    text-align: center;
+    
+
+
+}
+
+.Productive-items{
+    display: flex;
+    justify-content: space-around;
+    /* gap: 158px; */
+}
+
+.Productive-item{
+    margin-top: 5px;
+}
+
+
+.Productive-number{
+    /* margin-bottom: 5px; */
+    margin-bottom: 5px;
+}
+
+.Productive-number{
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(78, 71, 255, 1);
+}
+
+.Productive-lebel{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.secondary-backg{
+    background-color: rgba(78, 71, 255, 0.1);
 }
