@@ -15,6 +15,8 @@
 
 
 
+
+
 .btn-primary{
     background-color: rgba(78, 71, 255, 1);
     border: none;
@@ -30,6 +32,12 @@
 .color-share{
     color: rgba(78, 71, 255, 1);
 }
+
+.text-center{
+    text-align: center;
+}
+
+
 
 /* header */
 /* nav style */
@@ -128,6 +136,7 @@ main{
 .Productive{
     
     /* margin: 116px 159px 137px 141px; */
+    margin-top: 116px;
     border-radius: 24px;
     padding: 50px 142px; 
     text-align: center;
@@ -175,4 +184,73 @@ main{
 
 .secondary-backg{
     background-color: rgba(78, 71, 255, 0.1);
+}
+
+/* user feedback part */
+
+.Feedback{
+    margin-top: 137px;
+}
+
+.Feedback-container{
+    display: flex;
+    gap: 20px;
+}
+
+.Feedback-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.Feedback-sub-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.Feedback-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.User-Feedback{
+    padding: 24px 24px 24px 24px;
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+    border-radius: 14px;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    border:1px solid rgba(242, 237, 237, 1) ;
+
+}
+
+.Feedback-footer{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.Feedback-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.User-Name{
+    margin-bottom: 5px;
+    
+}
+
+.User-Date{
+    margin-top: 0px;
+}
+
+.User-Name{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(117, 117, 117, 1);
+}
+
+.User-Date{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(179, 179, 179, 1);
 }
