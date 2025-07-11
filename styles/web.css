@@ -254,3 +254,78 @@ main{
     font-weight: 400;
     color: rgba(179, 179, 179, 1);
 }
+
+/* Touch-section-part */
+
+.Touch-section{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 115px;
+    margin-top: 93px;
+    
+}
+
+.Touch-column{
+    width: 50%;
+}
+
+.Touch-section input[type="text"],.Touch-section input[type="email"] {
+    font-size: 20px;
+    font-weight: 400;
+    height: 70px;
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+     padding: 10px 30px;
+     box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 1);
+    /* border-color: rgba(214, 221, 237, 1); */
+    margin-bottom: 19px;
+    border:1px solid rgba(242, 237, 237, 1) ;
+}
+
+.Touch-section textarea{
+    font-size: 20px;
+    font-weight: 400;
+    height: 107px;
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+     /* padding: 20px 113px 20px 32px; */
+    padding: 10px 30px; 
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 1);
+    /* border-color: rgba(214, 221, 237, 1); */
+    margin-bottom: 19px;
+    border:1px solid rgba(242, 237, 237, 1) ;
+}
+
+.btn-primary-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgba(78, 71, 255, 1);
+    width: 100%;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px 30px 20px 30px;
+    border-radius: 5px;
+}
+
+.Touch-title{
+    font-size: 97px;
+    font-weight: bold;
+    width: 528px;
+    height: 232px;
+}
+
+.label-title{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+}
