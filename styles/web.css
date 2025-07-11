@@ -257,7 +257,7 @@ main{
 
 /* Touch-section-part */
 
-.Touch-section{
+.touch-section-div{
    
     display: flex;
     justify-content: center;
@@ -328,4 +328,59 @@ main{
     font-size: 18px;
     font-weight: 500;
     color: rgba(0, 0, 0, 1);
+}
+
+/* Logo section part */
+.LOGO{
+    
+    justify-items: center;
+}
+
+.logo-description{
+    margin: 104px 455px 0px 454px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    padding: 0px 20px;
+    width: 531px;
+    height: 221px;
+}
+
+
+.logo-title{
+    font-size: 100px;
+    font-weight: 900;
+    color: rgba(78, 71, 255, 1);
+    margin: 0px 2px 8px 0px;
+}
+
+.logo-sub-title{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(137, 135, 161, 1);
+    margin: 0px 0px 15px 0px;
+}
+
+.logo-service ul{
+    display: flex;
+    gap: 48px;
+    text-align: center;
+    align-items: center;
+    margin: 0px 35px 0px 0px;
+
+}
+
+.logo-service ul li{
+    list-style: none;
+
+    
+}
+
+.logo-service ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(137, 135, 161, 1);
 }
